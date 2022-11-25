@@ -23,9 +23,9 @@
 
 ### Other <span style="color: #cc0000">Important</span> Informations
 
-1. If you are unable to register on PECFEST Website then simply fill this Google form. Form will be closed 1 hour before contest start.
+1. If you are unable to register on PECFEST Website then simply fill this Google form. Form will be closed 1 hour before contest start. <br>
 `Link:` https://forms.gle/yLqEQXozDRrpTW9VA 
-2. Join us on whatsapp for all notices related to the event 
+2. Join us on whatsapp for all notices related to the event <br> 
 `Group Link:` https://chat.whatsapp.com/G0ZQwJuMkBjLu2m99nVF9Q 
-3. Editorials will be uploaded on Github. 
+3. Editorials will be uploaded on Github. <br>
 `Repo Link:` https://github.com/PEC-CSS/Coding-contests
