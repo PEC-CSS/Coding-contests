@@ -19,7 +19,7 @@
 3. Sharing of code is **NOT** allowed until the end of contest. If it is found, then he/she will be disqualified from the contest.
 4. It is the responsibility of the **author** to keep his code private. Use online IDE in private mode only so others cannot see your code.
 5. The organisers reserve the right to change any or all of the above rules as they deem fit. Change in rules, if any, will be highlighted on the website and notified to the registered teams.
-6. There is **NO** partial points. **ACM Style Leaderboard** will be followed.
+6. There are **NO** partial points. **ACM Style Leaderboard** will be followed.
 
 ### Other <span style="color: #cc0000">Important</span> Informations
 
