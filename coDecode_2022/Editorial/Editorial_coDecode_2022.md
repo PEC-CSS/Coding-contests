@@ -1,1 +1,1 @@
-### Editorials will be released after 6-7 Days of contest ヾ(＠⌒ー⌒＠)ノ
+### Editorials will be released after 3-7 Days of contest ヾ(＠⌒ー⌒＠)ノ
