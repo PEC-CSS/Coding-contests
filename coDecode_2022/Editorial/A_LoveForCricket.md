@@ -25,4 +25,4 @@ $\therefore$  Minimum value of $x = ceil(\frac{Q - 36}{7})$.
 
 Final ans = $max(0, min\_value\_of\_x)$
 
-#### [CPP_Code](./../Codes//A.cpp)
+#### [CPP_Code](./../Codes//A_LoveForCricket.cpp)
