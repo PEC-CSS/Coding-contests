@@ -1,4 +1,4 @@
-# <center>coDecode Prelims 2022</center>
+# <center>[coDecode Prelims 2022](https://www.hackerrank.com/contests/codecode-pec/challenges)</center>
 ---
 
 Thank You participating in our contest. Hope you enjoyed the problems.
