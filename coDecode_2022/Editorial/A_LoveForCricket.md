@@ -9,17 +9,13 @@ His score in that case will be:
 
 Sum of runs scored in no balls + Sum of extra runs due to no balls + Sum of runs scored in non-no balls  $= x \cdot 6 + x \cdot 1 + 36$.
 
-```math
-\ \ \ \ \ \ \ x \cdot 6 + x \cdot 1 + 36 \geq Q
+$\ \ \ \ \ \ \ x \cdot 6 + x \cdot 1 + 36 \geq Q$
 
-\newline
 
-\implies x \cdot 7 \geq Q - 36
+$\implies x \cdot 7 \geq Q - 36$
 
-\newline
 
-\implies \ x \geq \frac{Q - 36}{7}
-```
+$\implies \ x \geq \frac{Q - 36}{7}$
 
 $\therefore$  Minimum value of $x = ceil(\frac{Q - 36}{7})$.
 
