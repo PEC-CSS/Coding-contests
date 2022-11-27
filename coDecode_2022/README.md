@@ -3,7 +3,7 @@
 
 Thank You participating in our contest. Hope you enjoyed the problems.
 
-<ins>Problem will be linked to hackerrank later.</ins>
+<strike>Problem will be linked to hackerrank later.</strike>
 
 **UPD:** Problems can be viewed at hackerrank now. Problem Title (in editorial file) is now linked.
 
