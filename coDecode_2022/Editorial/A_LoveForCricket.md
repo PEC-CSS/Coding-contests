@@ -1,4 +1,4 @@
-# <center><u>[A. Love For Cricket](https://www.hackerrank.com/)</u></center>
+# <center><u>[A. Love For Cricket](https://www.hackerrank.com/contests/codecode-pec/challenges/love-for-cricket)</u></center>
 ---
 
 Did you handle the case when $Q \leq 36$?
@@ -25,4 +25,4 @@ $\therefore$  Minimum value of $x = ceil(\frac{Q - 36}{7})$.
 
 Final ans = $max(0, min\_value\_of\_x)$
 
-#### [CPP_Code](./../Codes//A_LoveForCricket.cpp)
+##### [`CPP_Code`](./../Codes//A_LoveForCricket.cpp)

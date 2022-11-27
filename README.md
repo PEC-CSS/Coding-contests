@@ -1,7 +1,9 @@
 # <center>Coding Contest Organised by PEC-ACM</center>
 ---
 
-## [1. coDecode Prelims](./coDecode_2022/)
+## [1. <u>coDecode Prelims</u>](https://www.hackerrank.com/contests/codecode-pec/challenges)
+
+##### [Codes and Editorials](./coDecode_2022/)
 
 <h3>Winners 🎉🎉</h3>
 
