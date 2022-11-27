@@ -21,5 +21,5 @@ Simplest Form of $(2, 4)$ is $(1, 2)$. To make fraction in it's simplest form si
 
 The only case that is left to handle is $(1, -2)$ and $(-1, 2)$. To handle that we can fix one out of numerator and denominator which will be negative (if one of the two is negative). See Code below for implementation details.
 
-##### [`Intended CPP Code handling fractions`](./../Codes/B_InterceptLessLines_intended.cpp)
-##### [`CPP Code using long double`](./../Codes/B_InterceptLessLines_alt.cpp)
+#### [`Intended CPP Code handling fractions`](./../Codes/B_InterceptLessLines_intended.cpp)
+#### [`CPP Code using long double`](./../Codes/B_InterceptLessLines_alt.cpp)
