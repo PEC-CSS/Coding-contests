@@ -68,7 +68,7 @@ void slv(){
         dp = vector<vector<int>> (n, vector<int> (32, -1));
         vector<int> in(n); cin >> in;
 
-        for(auto &p : in) p > 0 ? p = 1 : p = 0;
+        for(auto &p : in) p = p > 0;
 
         int pos = 0;
         for(int i = 0; i < n; i++){
