@@ -67,7 +67,8 @@ $C_{J, i} = C_{J - K,\ \  (i - K)\ \ mod \ \ N} \oplus C_{J - K,\ \  (i + K)\ \ 
 
 <summary> Follow up Question </summary>
 
-- Can you prove why this would be the case if $K$ is not a power of $2$?
+- Can you prove why this would not be the case if $K$ is not a power of $2$?
+- For Example, $C_{3, \ i} \neq C_{0, \ i - 3} \oplus C_{0, \ i - 3}$
 
 </details>
 
