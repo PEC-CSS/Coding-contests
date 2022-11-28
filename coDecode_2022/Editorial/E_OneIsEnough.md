@@ -25,8 +25,6 @@ Can we replace all positive integers with a particular number, say $p$ and all n
 
 </details>
 
-$\newline$
-
 <details>
 
   <summary> Tutorial </summary>
@@ -53,17 +51,17 @@ $C_{1, i} = C_{0, i - 1} \oplus C_{0, i + 1}$, where $a \oplus b$ denotes bitwis
 
 $C_{2, i} = C_{1, i - 1} \oplus C_{1, i + 1}$
 
-$ \ \ \ \ \ \ \ = (C_{0, i - 2} \oplus C_{0, i}) \oplus (C_{0, i} \oplus C_{0, i + 2})$
+$= (C_{0, i - 2} \oplus C_{0, i}) \oplus (C_{0, i} \oplus C_{0, i + 2})$
 
-$ \ \ \ \ \ \ \  = C_{0, i - 2} \oplus C_{0, i + 2}$, since $a \oplus a = 0$ and $0 \oplus a = a$.
+$= C_{0, i - 2} \oplus C_{0, i + 2}$, since $a \oplus a = 0$ and $0 \oplus a = a$.
 
 For any $K$ which power of $2$
 
-$C_{K, i} = C_{K,\ \  (i - K)\  \% \ MOD} \oplus C_{K,\ \  (i + K)\  \% \ MOD}$
+$C_{K, i} = C_{K,\ \ (i - K)\ \   mod\ \   N} \oplus C_{K,\ \  (i + K)\ \   mod\ \   N}$
 
 In fact we can generalise it by saying,
 
-$C_{J, i} = C_{J - K,\ \  (i - K)\  \% \ MOD} \oplus C_{J - K,\ \  (i + K)\  \% \ MOD}$   where $K$ is any integer that is power of $2$ and $J$ is any integer greater than $K$.
+$C_{J, i} = C_{J - K,\ \  (i - K)\ \ mod \ \ N} \oplus C_{J - K,\ \  (i + K)\ \  mod \ \  N}$   where $K$ is any integer that is power of $2$ and $J$ is any integer greater than $K$.
 
 <details>
 
@@ -72,8 +70,6 @@ $C_{J, i} = C_{J - K,\ \  (i - K)\  \% \ MOD} \oplus C_{J - K,\ \  (i + K)\  \% 
 - Can you prove why this would be the case if $K$ is not a power of $2$?
 
 </details>
-
-
 
 The next step is how do we generalise it for any $M$. It is easy to see that we can make jumps in power of $2$ to reach the needed state. Just write the number as sum of powers of two and make appropriate jumps.
 
