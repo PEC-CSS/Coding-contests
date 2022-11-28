@@ -5,7 +5,7 @@
 
 <summary> Hint-1 </summary>
 
-Is there any distinguishing feature that makes one positive integer different from other?
+- Is there any distinguishing feature that makes one positive integer different from other?
 
 </details>
 
@@ -13,7 +13,7 @@ Is there any distinguishing feature that makes one positive integer different fr
 
 <summary> Hint-2 </summary>
 
-Can we replace all positive integers with a particular number, say $p$ and all negative integers with a number, say $n$ and in the final state of array we can just count the number of $p$.
+- Can we replace all positive integers with a particular number, say $p$ and all negative integers with a number, say $n$ and in the final state of array we can just count the number of $p$.
 
 </details>
 
@@ -21,7 +21,7 @@ Can we replace all positive integers with a particular number, say $p$ and all n
 
 <summary> Hint-3 </summary>
 
-**Exactly one** positive neighbour can make $A_i$ positive. Does this strike any bitwise operation in your mind. 
+- **Exactly one** positive neighbour can make $A_i$ positive. Does this strike any bitwise operation in your mind. 
 
 </details>
 
