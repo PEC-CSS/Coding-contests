@@ -29,6 +29,8 @@
 
   <summary> Tutorial </summary>
 
+The word integer sequence and array mean the same thing throughout this tutorial.
+
 We can choose $p = 1$ and $n = 0$. We can then do the bitwise operation I was talking in Hint-3. From now on, I will treat integer sequence $A$ as a binary integer sequence i.e., it contains only 0 and 1. 
 
 If $A = (-2, -3, 4, 5, -6)$ we will first transform it into $A = (0, 0, 1, 1, 0)$ and then do further operations.
@@ -57,7 +59,7 @@ $= C_{0, i - 2} \oplus C_{0, i + 2}$, since $a \oplus a = 0$ and $0 \oplus a = a
 
 For any $K$ which power of $2$
 
-$C_{K, i} = C_{K,\ \ (i - K)\ \   mod\ \   N} \oplus C_{K,\ \  (i + K)\ \   mod\ \   N}$
+$C_{K, i} = C_{K,\ \ (i - K)\ \   mod\ \   N} \oplus C_{K,\ \  (i + K)\ \   mod\ \   N}$  where $N$ is the length of array.
 
 In fact we can generalise it by saying,
 
