@@ -40,7 +40,7 @@ If $A = (-2, -3, 4, 5, -6)$ we will first transform it into $A = (0, 0, 1, 1, 0)
   <summary> Hint-2 proof </summary>
 
 - We see that both the operation only change sign on $A_i$ but the magnitude remains intact. Does changing magnitude of $A_i$ will have no effect.
-Here, magnitude of $x$ = $ | x | $
+Here, magnitude of $x = | x | $
 
   </details>
 
