@@ -28,3 +28,5 @@
   You will need to precompute factorials to answer each test case in O(1)
 
 </details>
+
+#### [`CPP_Code`](./../Codes//D_HowManyArrays.cpp)
