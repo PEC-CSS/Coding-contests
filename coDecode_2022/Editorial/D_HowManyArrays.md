@@ -19,6 +19,7 @@
   <details>
     <summary>Why</summary>
 
+
     Assume that you have $N$ numbers and you wish to group them in $M$ partitions. A partition is allowed to be empty. The $i^{th}$ partition from the left will have all it's elements equal to $i$. The number of such partitions is the number of ways of inserting $M - 1$ 'bars' among the $N$ numbers. Each bar shall act as a separation between $2$ partitions. This can be solved by assuming a total of $N + M - 1$ elements and selecting $M - 1$ elements out of them. The selected elements become 'bars' and rest of the $N$ elements act as numbers.
 
   </details>
