@@ -59,6 +59,8 @@ Can you proof why this type of splitting always works? (If you can prove that yo
     
 `Time Complexity:` $O(max \cdot \sqrt{max} \cdot log_2(max))$, where $max$ denote the max element of array $A$.
   
+  **NOTE:** Due the extra $log(max)$ factor this solution might give MLE verdict if you use a 2-D DP array. To get AC you must do memory optimisations. You can checkout the implementation for further details regarding optimisation.
+  
 </details>
 
 #### [`CPP Setter`](./../Codes/F_TLEorMLE_Setter.cpp)
