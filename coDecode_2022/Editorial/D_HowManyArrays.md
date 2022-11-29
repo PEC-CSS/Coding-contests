@@ -30,7 +30,7 @@
   Therefore the answer to the original problem is the same as finding the answer to the following problem: find the number of arrays such that each has a length n, with elements sorted in non-decreasing order and in the range $[1, \ M]$. 
 
   Using this fact we can output the answer for a given pair of $N, M$ as 
- $^{2 \cdot N + M - 1}C_{m - 1}$
+ $^{2 \cdot N + M - 1}C_{M - 1}$
 
   You will need to precompute factorials to answer each test case in $O(1)$
 
