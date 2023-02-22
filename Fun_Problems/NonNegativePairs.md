@@ -1,4 +1,4 @@
-# [3. Non Negative Pairs](https://www.hackerrank.com/contests/testing-1669399991/challenges/non-negative-pairs)
+# [2. Non Negative Pairs](https://www.hackerrank.com/contests/testing-1669399991/challenges/non-negative-pairs)
 
 Do as instructed in problem but you cannot directly multiply $A_{i, j}$ and $A_{j, i}$ because it will go out of range of long long too. **BUT** you can use python, java inbuilt big-integers or use `__int128` in c++ to do so without getting any overflow problem. But these aren't the intended solution.
 
