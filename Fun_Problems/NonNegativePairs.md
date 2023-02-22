@@ -6,7 +6,7 @@ Do as instructed in problem but you cannot directly multiply $A_{i, j}$ and $A_{
 ---
 
 - $A_{i, j} := signum(A_{i, j})$ where signum(x) is defined as following:
-- <img src = "https://wikimedia.org/api/rest_v1/media/math/render/svg/cbb2c65f0f33af6f17bb6515a8843041625a3626" style="background-color:white" />
+- [signum function](https://wikimedia.org/api/rest_v1/media/math/render/svg/cbb2c65f0f33af6f17bb6515a8843041625a3626)
 - Now simply do as intructed in question, you will not face any overflow issue.
 
 ### Approach-2
