@@ -6,8 +6,8 @@ Do as instructed in problem but you cannot directly multiply $A_{i, j}$ and $A_{
 
 ---
 
-- $A_{i, j} := \operatorname{sgn}(A_{i, j})$ where $\operatorname{sgn}(x)$ is defined as following:
-- $\operatorname{sgn}(x) = 1$ if $x > 0$, $-1$ if $x < 0$, $0$ otherwise.
+- $A_{i, j} := \text{sgn}(A_{i, j})$ where $\text{sgn}(x)$ is defined as following:
+- $\text{sgn}(x) = 1$ if $x > 0$, $-1$ if $x < 0$, $0$ otherwise.
 - Now simply do as intructed in question, you will not face any overflow issue.
 
 <details>
