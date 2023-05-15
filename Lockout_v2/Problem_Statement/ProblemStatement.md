@@ -1,4 +1,4 @@
-<a href="#">
+<a href="https://www.hackerrank.com/contests/lockout-v2-pec-acm/challenges">
     <h1 style="color: #5cafff">
         <img style="float: left" src="./../../asset/acm_logo.png" width=80> 
         <p align="center">
@@ -7,7 +7,7 @@
     </h1>
 </a>
 
-<a href="#" align="center" style="color: white">
+<a href="#" align="https://www.hackerrank.com/contests/lockout-v2-pec-acm/challenges/kcd" style="color: white">
     <h2 align="center"> A. KCD </h2>
 </a>
 
@@ -76,7 +76,7 @@ It is guaranteed that $K \leq \text{total number of common divisors of}\ A\ \tex
 
 <br>
 <br>
-<a href="#" align="center" style="color: white">
+<a href="https://www.hackerrank.com/contests/lockout-v2-pec-acm/challenges/find-ranks" align="center" style="color: white">
     <h2 align="center"> B. Find Ranks </h2>
 </a>
 
@@ -136,7 +136,7 @@ Following image shows how the tournament goes:
 
 <br>
 <br>
-<a href="#" align="center" style="color: white">
+<a href="https://www.hackerrank.com/contests/lockout-v2-pec-acm/challenges/one-second-please" align="center" style="color: white">
     <h2 align="center"> C. one_second Please </h2>
 </a>
 
@@ -198,7 +198,7 @@ YES
 
 <br>
 <br>
-<a href="#" align="center" style="color: white">
+<a href="https://www.hackerrank.com/contests/lockout-v2-pec-acm/challenges/couple-messiah-ac" align="center" style="color: white">
     <h2 align="center"> D. Couple Messiah - AC </h2>
 </a>
 
@@ -265,7 +265,7 @@ Find minimum time (in minutes) needed by Abhilash to make all couples sit adjace
 
 <br>
 <br>
-<a href="#" align="center" style="color: white">
+<a href="https://www.hackerrank.com/contests/lockout-v2-pec-acm/challenges/how-many-lcms" align="center" style="color: white">
     <h2 align="center"> E. How many LCMs? </h2>
 </a>
 
@@ -383,7 +383,7 @@ Thus $S = \{140, 490, 980, 980\}$. Number of distinct elements are 3.
 
 <br>
 <br>
-<a href="#" align="center" style="color: white">
+<a href="https://www.hackerrank.com/contests/lockout-v2-pec-acm/challenges/minimise-aad" align="center" style="color: white">
     <h2 align="center"> F. Minimise Absolute Difference </h2>
 </a>
 
