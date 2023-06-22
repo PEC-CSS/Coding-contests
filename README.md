@@ -18,5 +18,9 @@
 
 ### [4. Lockout v1](https://www.hackerrank.com/contests/lockout-v1-pec-acm/challenges)
 
-- [Problem Statement](./Lockout_v1/Problem_Statements/)
+- [Problem Statement](./Lockout_v1/Problem_Statements)
 - [Code](./Lockout_v1/Code/)
+
+### [5. Lockout v2](https://www.hackerrank.com/contests/lockout-v2-pec-acm/challenges)
+
+- [Problem Statement](./Lockout_v2/Problem_Statement/ProblemStatement.md)
