@@ -132,7 +132,7 @@ You task is to find rank of each player. It is guaranteed that power of each pla
 
 Following image shows how the tournament goes:
 
-![tournament-sample](../../asset/findRank-sample1.png)
+![tournament-sample](../../asset/lockout_v2/findRank-sample1.png)
 
 <br>
 <br>
@@ -146,21 +146,24 @@ Following image shows how the tournament goes:
     <span style="font-weight: 500">Memory Limit per test:</span> 512 MB <br>
 </p>
 
-Om and Abhilash have an integer sequence $A$ of length $N$. Both of them wants that sequence, so to decide who should get to keep that sequence they decide the following:
+*While fleeing from police Om goes to NSS Ground and finds a sequence. So he decided to play a game with the  police.*
 
-- Let number of triplets $(i, j, k)$ such that $i < j < k$ and $A_i = A_j$ and $A_j = A_k$ be $X$, and $Y$ be the number of remaining triplets.
-- If $X \geq Y$, then Om keeps the sequence.
-- If $Y > X$, then Abhilash keeps the sequence.
+Om and Police have an integer sequence $A$ of length $N$. If Om wins the game he gets to be free from police, otherwise he will be captured.
 
-Om has a special power, using which he can make Abhilash blind for **"one_second"** <strike>(no pun intended :p)</strike>. In that **one second** Om can change atmost $K$ integers to any integer of his choice.
+Let number of triplets $(i, j, k)$ such that $i < j < k$ and $A_i = A_j$ and $A_j = A_k$ be $X$, and $Y$ be the number of remaining triplets.
 
-**For example:** If $A = (1, 2, 3, 4)$ and $K = 2$, then Om can change any two elements of $A$. One possible such array is $A = (1, 1, 1, 4)$. 
+- If $X \geq Y$, then Om wins the game.
+- If $Y > X$, then police wins the game.
+
+Om has **"one second"** <strike>(no pun intended :p)</strike> in which he can change atmost $K$ integers of the sequence to any integer of his choice.
+
+**For example:** If $A = (1, 2, 3, 4)$ and $K = 2$, then Om can change any two elements of $A$. One possible such array is $A = (1, 1, 1, 4)$
 
 <h3> Input Format </h3>
 
 - First line contains an integer $T$ - Number of testcase.
 - Next two lines of each testcase contains:
-  - A single integer $N$ - Length of integer sequence
+  - Two integers $N$ and $K$ - Length of integer sequence and number of integer Om can change in one second.
   - $N$ space separated integers where $i^{th}$ integer denotes $A_i$.
 
 <h3> Constraint </h3>
@@ -176,7 +179,7 @@ Om has a special power, using which he can make Abhilash blind for **"one_second
 
 **NOTE:** Assume checker to be **Case sensitive**, i.e., "Yes", "YES" are treated differently.
 
-<h3> Sample Input x </h3>
+<h3> Sample Input 1 </h3>
 
 ```
 2
@@ -186,7 +189,7 @@ Om has a special power, using which he can make Abhilash blind for **"one_second
 1 2 1
 ```
 
-<h3> Sample Output x </h3>
+<h3> Sample Output 1 </h3>
 
 ```
 NO
@@ -208,13 +211,13 @@ YES
     <span style="font-weight: 500">Memory Limit per test:</span> 512 MB <br>
 </p>
 
-**Abhilash - The Messiah of IIT Jodhpur couples**, decided to visit the college. After going to college he found out that students are randomly paired up and made to sit together, to avoid couples sitting together intentionally.
+**Abhilash - The Messiah of IIT Jodhpur couples**, decided to visit the college. After going to college he found out that students are randomly paired up and made to sit together, to not allow couple to hold hands.
 
-But wait, this is not as good as it sounds because IIT Jodhpur has $N$ couples and a total of $2 \cdot N$ students **only**, which means nobody is single. 
+But wait, this is not as good as it sounds because IIT Jodhpur has $N$ couples and a total of $2 \cdot N$ students **only**, which means nobody is single :'( 
 
-Abhilash being their messiah decides to make couples sit together. The couples are numbered in order, the first couple being $(0, 1)$, the second couple being $(2, 3)$, and so on with the last couple being $(2\cdot N - 2, 2\cdot N - 1)$.  In $1$ minute, he can make two people swap their places. See sample explanation for more clarity. 
+Abhilash being their messiah decides to make couples sit together so they can hold hands. The couples are numbered in order, the first couple being $(0, 1)$, the second couple being $(2, 3)$, and so on with the last couple being $(2\cdot N - 2, 2\cdot N - 1)$.  In $1$ minute, he can make two people swap their places. See sample explanation for more clarity. 
 
-Find minimum time (in minutes) needed by Abhilash to make all couples sit adjacent to each other.
+Find minimum time (in minutes) needed by Abhilash to make all couples sit adjacent to each other so they can _hold hands_
 
 <h3> Input Format </h3>
 
@@ -241,7 +244,7 @@ Find minimum time (in minutes) needed by Abhilash to make all couples sit adjace
 - No harm or disrespect is intended towards any college or university. Any mentions of specific institutions do not reflect any personal views or opinions.
 - While Abhilash **may** have a reputation for being a relationship guru, we cannot guarantee that he is, in fact, the messiah of all the couples.
 
-<h3> Sample Input x </h3>
+<h3> Sample Input 1 </h3>
 
 ```
 2
@@ -251,7 +254,7 @@ Find minimum time (in minutes) needed by Abhilash to make all couples sit adjace
 0 2 1 3
 ```
 
-<h3> Sample Output x </h3>
+<h3> Sample Output 1 </h3>
 
 ```
 0
@@ -261,7 +264,7 @@ Find minimum time (in minutes) needed by Abhilash to make all couples sit adjace
 - In first case, all couples are already together.
 - In second case, Abhilash can do $1$ swap to make all couples sit together as shown in the image below.
 
-![sample01](./../../asset/coupleMessiahAC-sample1.png)
+![sample01](./../../asset/lockout_v2/coupleMessiahAC-sample1.png)
 
 <br>
 <br>
@@ -318,7 +321,7 @@ More formally, $A_i = p_{i, 1}^{e_{i, 1}} \times p_{i, 2}^{e_{i, 2}} \times \cdo
 
 - Print a single integer denoting the answer - Number of distinct element in the set $S$.
 
-<h3> Sample Input x </h3>
+<h3> Sample Input 1 </h3>
 
 ```
 4
@@ -334,7 +337,7 @@ More formally, $A_i = p_{i, 1}^{e_{i, 1}} \times p_{i, 2}^{e_{i, 2}} \times \cdo
 7 1
 ```
 
-<h3> Sample Output x </h3>
+<h3> Sample Output 1 </h3>
 
 ```
 3
@@ -388,7 +391,7 @@ Thus $S = \{140, 490, 980, 980\}$. Number of distinct elements are 3.
 </a>
 
 <p align="center"> 
-    <span style="font-size: 17px"> <span style="font-weight: 600;">Score:600 </span> <br>
+    <span style="font-size: 17px"> <span style="font-weight: 600;">Score: 600 </span> <br>
     <span style="font-weight: 500">Time Limit per test:</span> 2 seconds <br>
     <span style="font-weight: 500">Memory Limit per test:</span> 512 MB <br>
 </p>
