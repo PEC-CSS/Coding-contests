@@ -1,7 +1,6 @@
-<h1 align="center">
-    <b>Coding and Related Events</b>
-    <img src="./asset/acm_logo.png" width="60px">
-</h1>
+<img src="./assets/cp.webp" align="right" width="150px">
+
+# Coding and Related Events
 
 ### [1. coDecode Prelims](https://www.hackerrank.com/contests/codecode-pec/challenges) 
 
