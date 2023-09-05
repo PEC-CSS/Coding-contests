@@ -1,6 +1,6 @@
-<img src="./assets/cp.webp" align="right" width="150px">
+<img src="asset/cp.webp" align="right" width="150px">
 
-# Coding and Related Events
+# `acm::cp` Coding and Related Events 
 
 ### [1. coDecode Prelims](https://www.hackerrank.com/contests/codecode-pec/challenges) 
 
