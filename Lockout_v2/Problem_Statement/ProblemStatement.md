@@ -1,6 +1,6 @@
 <a href="https://www.hackerrank.com/contests/lockout-v2-pec-acm/challenges">
     <h1 style="color: #5cafff">
-        <img style="float: left" src="./../../asset/acm_logo.png" width=80> 
+        <img style="float: left" src="./../../asset/cp.webp" width=80> 
         <p align="center">
             Lockout v2
         </p>
