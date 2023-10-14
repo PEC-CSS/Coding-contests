@@ -1,33 +1,37 @@
 #include <bits/stdc++.h>
-
 using namespace std;
+#define ll long long int
+#define endl '\n'
 
 void solve()
 {
-    int n, m;
+    ll n, m;
     cin >> n >> m;
-
-    vector<int> alice(m), bob(m);
+    vector<ll> alice(m), bob(m);
     for (int i = 0; i < m; i++)
+    {
         cin >> alice[i];
+    }
     for (int i = 0; i < m; i++)
+    {
         cin >> bob[i];
-
-    int score = 0;
-    for (int i = 0; i < m; i++)
-        score += alice[i] - bob[i];
-
-    if (score + n - m > 0)
+    }
+    ll aliceSum = accumulate(alice.begin(), alice.end(), 0LL);
+    ll bobSum = accumulate(bob.begin(), bob.end(), 0LL);
+    if (aliceSum + n - m > bobSum)
+    {
         cout << "YES\n";
-    else
-        cout << "NO\n";
-}   
-    
+        return;
+    }
+    cout << "NO\n";
+}
 int main()
 {
-    int t;
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    int t = 1;
     cin >> t;
-
-    for (int i = 0; i < t; i++)
+    while (t--)
         solve();
+    return 0;
 }

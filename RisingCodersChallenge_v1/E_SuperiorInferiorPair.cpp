@@ -1,32 +1,37 @@
 #include <bits/stdc++.h>
 using namespace std;
+#define ll long long int
+#define endl '\n'
 
-int main()
+void solve()
 {
-    int n;
+    ll n;
     cin >> n;
-
-    std::vector<std::vector<int>> phones(n);
+    vector<pair<ll, ll>> v(n);
     for (int i = 0; i < n; i++)
     {
-        int price, value;
-        cin >> price >> value;
-        phones[i] = {price, value};
+        cin >> v[i].first >> v[i].second;
     }
-
-    sort(phones.begin(), phones.end());
-    for (int i = 0; i < n - 1; i++)
+    sort(v.begin(), v.end());
+    ll mini = v[0].second;
+    for (int i = 1; i < n; i++)
     {
-        // (i, i + 1) compare ho raha hai
-        // i = n - 1 hua toh i + 1 = n ho jaayega 
-        // index out of bound
-        if (phones[i][0] < phones[i + 1][0]
-            and phones[i][1] > phones[i + 1][1])
+        if (v[i].second < mini)
         {
-            cout << "NEW PHONE";
-            return 0;
+            cout << "NEW PHONE\n";
+            return;
         }
+        mini = max(mini, v[i].second);
     }
-
-    cout << "OLD IT IS";
+    cout << "OLD IT IS\n";
+}
+int main()
+{
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    int t = 1;
+    // cin >> t;
+    while (t--)
+        solve();
+    return 0;
 }
