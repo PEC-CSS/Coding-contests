@@ -1,40 +1,36 @@
-#include "bits/stdc++.h"
-
+#include <bits/stdc++.h>
 using namespace std;
+#define ll long long int
+#define endl '\n'
 
 void solve()
 {
-    int n;
+    ll n;
     cin >> n;
-
-    vector<int> a(n);
+    vector<ll> v(n);
     for (int i = 0; i < n; i++)
-        cin >> a[i];
-
-    int l = 0, r = 0;
-    long long ans = 0;
-    while (r < n)
     {
-        // find number of subarrays ending at r
-        if (a[r] >= r - l + 1)
-        {
-            ans += r - l + 1;
-            r++;
-        }
-        else
-            l = r - (a[r] - 1);
+        cin >> v[i];
     }
-
-    cout << ans << "\n";
+    ll right = 0;
+    ll ans = 0;
+    for (int i = 0; i < n; i++)
+    {
+        while (right < n && v[right] >= right - i + 1)
+        {
+            right++;
+        }
+        ans += right - i;
+    }
+    cout << ans << endl;
 }
-
 int main()
 {
-    int t;
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    int t = 1;
     cin >> t;
-
-    while (t--) 
+    while (t--)
         solve();
-    
     return 0;
 }
