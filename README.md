@@ -14,6 +14,7 @@
 | 6.     | UCS 2019 Finale                                                                                         | [Code](./UCS_Finale/)                                     |
 | 7.     | [Rising Coder's Challenge v1](https://www.hackerrank.com/contests/risingcoders-challenge/challenges)    | [Code](./RisingCodersChallenge/RisingCodersChallenge_v1/) |
 | 8.     | [Algorithmic Grand Prix](https://hackerrank.com/contests/algorithmic-grand-prix-pecfest2023/challenges) | [Code + Explanation](./AlgorithmicGrandPrix/)             |
+| 9.     | [Plot the Pattern](https://www.hackerrank.com/contests/plot-the-pattern/challenges) | [Code](./Plot-the-Pattern/)             |
 
 ### Post Contest Discussions
 
