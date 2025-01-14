@@ -15,7 +15,7 @@
 | 7.     | [Rising Coder's Challenge v1](https://www.hackerrank.com/contests/risingcoders-challenge/challenges)    | [Code](./RisingCodersChallenge/RisingCodersChallenge_v1/) |
 | 8.     | [Algorithmic Grand Prix](https://hackerrank.com/contests/algorithmic-grand-prix-pecfest2023/challenges) | [Code + Explanation](./AlgorithmicGrandPrix/)             |
 | 9.     | [Plot the Pattern](https://www.hackerrank.com/contests/plot-the-pattern/challenges) | [Code](./Plot-the-Pattern/)             |
-| 10.     | [CodeSprint-2.0](https://www.hackerrank.com/contests/codesprint-2-0-1/challenges) | [Code](./CodeSprint-2.0/)             |
+| 10.     | [CodeSprint-2.0](https://www.hackerrank.com/contests/codesprint-2-0-1/challenges) | [Code](./CodeSprint_2.0/)             |
 
 ### Post Contest Discussions
 
